@@ -1,7 +1,16 @@
-nymea (0.30.0) UNRELEASED; urgency=medium
+nymea (0.30.0) xenial; urgency=medium
 
 
- -- Michael Zanetti <michael.zanetti@nymea.io>  Mon, 20 Sep 2021 11:20:18 +0200
+  [ Simon Stürz ]
+  * Add tunnel proxy server for new remote connection mechanism
+  * Make use of gpio classes from libnymea-gpio
+
+  [ Michael Zanetti ]
+  * Use pkgconfig to find zigbee also for tests
+  * 0.30
+  * Add energystorage interface
+
+ -- Jenkins <jenkins@nymea.io>  Tue, 21 Sep 2021 14:05:04 +0200
 
 nymea (0.29.0) xenial; urgency=medium
 
